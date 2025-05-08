@@ -10,12 +10,14 @@
 }
 
 @font-face {
-  font-family: "Font Awesome 6 Brands";
-  font-style: normal;
+  font-family: 'Oxanium';
+  src: URL("[[font:core|Oxanium-VariableFont_wght.ttf]]") format('truetype');
   font-weight: 400;
-  font-display: block;
-  src: url("[[font:core|fa-brands-400.woff2]]") format("woff2"), url("[[font:core|fa-brands-400.ttf]]") format("truetype");
+/*   font-display: block; */
+  font-style: normal;
 }
+
+$font-family-sans-serif: 'Oxanium', sans-serif;
 .fab,
 .fa-brands {
   font-weight: 400;
@@ -13346,10 +13348,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
-body {
+body, body * {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
-  font-family: 'Oxanium';
+  font-family: 'Oxanium' !important;
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.5;
